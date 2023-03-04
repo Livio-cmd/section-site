@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <h1 class="title">UNTITLED</h1>
+            <p>LOREM IPSUM DOLOR SIT AMET CONSEC TETUR ADIPISCING ELIT. DUIS DAPIBUS RUTRUM FACILISIS. CLASS APTENT TACITI AD LITORA.</p>
+            <a href="#section1" class="button">aliquam <img src="./assets/arrow-down.svg" alt="flèche vers le bas"></a>
+        </div>
+    </header>
+
+    <main>
+        <section id="section1" class="section-card">
+            <div class="row">
+                <img src="https://d7494f17bf6b1667.demo.carrd.co/assets/images/image03.jpg?v=fc27a878" alt="Image de section" class="section-img">
+
+                <div class="wrapper col">
+                    <span class="section-title">consequat</span>
+                    <h2>aliquam</h2>
+                    <p>IACULIS AT ERAT PELLEN TESQUE. ADIPISCING ELIT AT IMPERDIET. MAURIS IN ALIQUAM SEM FRINGILLA UT MORBI ELEIFEND.</p>
+                    <a href="#section2" class="button">sodales <img src="./assets/arrow-down.svg" alt="flèche vers le bas"></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="section2" class="section-card reversed">
+            <div class="row">
+
+                <div class="wrapper col">
+                    <span class="section-title">laoreet</span>
+                    <h2>veroeros</h2>
+                    <p>TRISTIQUE RISUS NEC FEUGIAT IN FERMENTUM. UT PLACERAT ORCI NULLA DIGNISSIM SIT AMET VENENATIS SODALES.</p>
+                    <a href="#section3" class="button">sodales <img src="./assets/arrow-down.svg" alt="flèche vers le bas"></a>
+                </div>
+
+                <img src="https://d7494f17bf6b1667.demo.carrd.co/assets/images/image01.jpg?v=fc27a878" alt="Image de section" class="section-img">
+            </div>
+        </section>
+
+        <section id="section3" class="section-card">
+            <div class="row">
+                <img src="https://d7494f17bf6b1667.demo.carrd.co/assets/images/image02.jpg?v=fc27a878" alt="Image de section" class="section-img">
+
+                <div class="wrapper col">
+                    <span class="section-title">SIT AMET</span>
+                    <h2>PHARETRA</h2>
+                    <p>PENATIBU MAGNIS DIS ETIAM AMET MONTES NASCETUR. SED AUGUE LACUS VIVERRA VITAE LOREM DONEC.</p>
+                    <a href="#footer" class="button">integer <img src="./assets/arrow-down.svg" alt="flèche vers le bas"></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="wrapper">
+            <div class="col">
+                <h2>tempus</h2>
+                <p>LOREM IPSUM MAGNIS DIS MONTES NASCETUR. SED AUGUE LACUS VIVERRA VITAE CONGUE LOREM DONEC.</p>
+                <div class="row">
+                    <a href="#" class="button media"><img src="../assets/logo-instagram.svg" alt="Image de button media"></a>
+                    <a href="#" class="button media"><img src="../assets/logo-tiktok.svg" alt="Image de button media"></a>
+                    <a href="#" class="button media"><img src="../assets/logo-youtube.svg" alt="Image de button media"></a>
+                    <a href="#" class="button media"><img src="../assets/logo-twitter.svg" alt="Image de button media"></a>
+                    <a href="#" class="button media"><img src="../assets/mail.svg" alt="Image de button media"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
